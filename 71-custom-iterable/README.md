@@ -17,3 +17,9 @@
 3. Implement the `setIterationPolicy` method so that it sets the `Predicate<T>` that will be used to filter the elements during the iteration.
 4. Modify the implementation of the inner class (the `Iterator<T>` implementation) so that it uses the `Predicate<T>` to filter the elements during the iteration.
 5. Test the implementation by running the `TestIterableWithPolicy` class.
+
+1. Aggiungi un nuovo costruttore alla classe appena creata che accetta due argomenti: un array di elementi "T" e un "Predicato<T>" che verrà utilizzato per filtrare gli elementi durante     l'iterazione.
+2. Modificare il costruttore 1-ario in modo che chiami il costruttore 2-ario con un `Predicato<T>` che restituisca sempre `true`.
+3. Implementare il metodo `setIterationPolicy` in modo che imposti il `Predicate<T>` che verrà utilizzato per filtrare gli elementi durante l'iterazione.
+4. Modificare l'implementazione della classe interna (l'implementazione `Iterator<T>`) in modo che utilizzi il `Predicate<T>` per filtrare gli elementi durante l'iterazione.
+5. Testare l'implementazione eseguendo la classe "TestIterableWithPolicy".
